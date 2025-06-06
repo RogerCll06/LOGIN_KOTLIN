@@ -9,7 +9,7 @@ class CalculadoraIMCActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_imc)
 
-        // Referencias a vistas
+        // Referencias a vistas kkkkkk
         val etPeso = findViewById<EditText>(R.id.etPeso)
         val spinnerAltura = findViewById<Spinner>(R.id.spinnerAltura)
         val btnCalcular = findViewById<Button>(R.id.btnCalcular)
