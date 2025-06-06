@@ -22,6 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegistrarActivity" />
+        <activity android:name=".CalculadoraActivity" />
+        <activity android:name=".CalculadoraIMCActivity" />
+
     </application>
 
 </manifest>

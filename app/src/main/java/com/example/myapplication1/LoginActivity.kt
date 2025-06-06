@@ -12,10 +12,20 @@ class LoginActivity:AppCompatActivity(){
 
         val btnLogin = findViewById<Button>(R.id.btnIniciar)
         val btnRegister = findViewById<Button>(R.id.btnRegistro)
+        val btnImc = findViewById<Button>(R.id.btnGoogle)
+
 
         btnRegister.setOnClickListener {
             // Toast.makeText(this, "Mostrar pantalla registrar", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, RegistrarActivity::class.java))
+        }
+        btnLogin.setOnClickListener {
+            // Toast.makeText(this, "Mostrar pantalla registrar", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, CalculadoraActivity::class.java))
+        }
+        btnImc.setOnClickListener {
+            // Toast.makeText(this, "Mostrar pantalla registrar", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, CalculadoraIMCActivity::class.java))
         }
 
 
