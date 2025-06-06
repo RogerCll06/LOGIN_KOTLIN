@@ -1,0 +1,5 @@
+<com.google.android.material.button.MaterialButton android:id="@+id/btnGoogle"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginStart="50dp" android:layout_marginEnd="50dp"
+    android:text="Iniciar sesión con Google" app:icon="@drawable/google" app:iconPadding="8dp"
+    app:iconGravity="start" // O "textStart" para mayor controlandroid:backgroundTint="@color/gray"  // Puedes usar los atributos de Material para stylingandroid:textColor="@color/black"app:layout_constraintTop_toBottomOf="@+id/btnIniciar" />
